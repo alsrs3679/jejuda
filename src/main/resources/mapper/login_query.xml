@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.jejuda.mapper.UserDao">
+
+	<select id="test" parameterType="map" resultType="String">
+		select ca_title from a_tn4_shop1_cnr where no = #{no}
+	</select>
+	
+
+</mapper>
+
+
+
+
+
+

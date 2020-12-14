@@ -32,11 +32,15 @@ dependencies {
 	//for aop
 	compile 'org.springframework.boot:spring-boot-starter-aop'
 	
-	//JsonConveter( 而⑦듃濡ㅻ윭�뿉�꽌 �깮�꽦�븳 vo�뜲�씠�꽣瑜� json�쑝濡�)
+
 	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.0'
 	
 
-	
+	// MyBatis
+	compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2")
+	compile('org.springframework.boot:spring-boot-starter-jdbc')
+	compile('mysql:mysql-connector-java')
+		
 	//Json-simple
 	compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
 	compile("org.springframework.boot:spring-boot-starter-mail")
