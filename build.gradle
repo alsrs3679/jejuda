@@ -1,0 +1,51 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.0'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+}
+
+group = 'com.jejuda'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-web-services'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'mysql:mysql-connector-java'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	//for jsp
+	implementation 'javax.servlet:jstl'
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+	
+	//Swagger2
+	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+	
+	//for aop
+	compile 'org.springframework.boot:spring-boot-starter-aop'
+	
+	//JsonConveter( 而⑦듃濡ㅻ윭�뿉�꽌 �깮�꽦�븳 vo�뜲�씠�꽣瑜� json�쑝濡�)
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.0'
+	
+
+	
+	//Json-simple
+	compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+	compile("org.springframework.boot:spring-boot-starter-mail")
+	  	compile "org.springframework:spring-context-support"
+	  	compile "com.sun.mail:javax.mail"
+	
+	
+}
+
+test {
+	useJUnitPlatform()
+}
