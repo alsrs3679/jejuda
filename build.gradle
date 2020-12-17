@@ -47,6 +47,8 @@ dependencies {
 	  	compile "org.springframework:spring-context-support"
 	  	compile "com.sun.mail:javax.mail"
 	
+	// https://mvnrepository.com/artifact/com.jcraft/jsch
+	compile group: 'com.jcraft', name: 'jsch', version: '0.1.55'
 	
 }
 
