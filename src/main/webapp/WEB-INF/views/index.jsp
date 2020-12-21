@@ -186,7 +186,7 @@
                             <span>카테고리</span>
                         </div>
                         <ul>
-                            <li><a href="#">청정수산</a></li>
+                            <li><a href="${root}/shopgrid_fish">청정수산</a></li>
                             <li><a href="#">싱싱과일</a></li>
                             <li><a href="#">흑돼지</a></li>
                             <li><a href="#">건강차</a></li>

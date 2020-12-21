@@ -23,9 +23,9 @@ public class MainController {
 		return "/delivery";
 	}
 	
-	@GetMapping(value="/seaproduct")
+	@GetMapping(value="/shopgrid_fish")
 	public String seaproduct() {
-		return "/shop-grid";
+		return "/shopgrid_fish";
 	}
 	
 	@GetMapping(value="/fruit")
@@ -58,15 +58,18 @@ public class MainController {
 		return "/contact";
 	}
 	
+	@GetMapping(value="/shopdetails_eungalchi")
+	public String eungalchi_detail() {
+		return "/shopdetails_eungalchi";
+	}
+	
+	@GetMapping(value="/shopgrid_eungalchi")
+	public String eungalchi_product() {
+		return "/shopgrid_eungalchi";
+	}
+	
 	@GetMapping(value="/seaproduct/fish/1")
 	public String fish_detail() {
 		return "/shop-details";
 	}
-	
-	//test//
-
-	
-	
-	
-
 }
