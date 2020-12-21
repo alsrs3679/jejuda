@@ -15,7 +15,7 @@ public class MainController {
 	
 	@GetMapping(value="/shoppingcart")
 	public String shoppingcart() {
-		return "/shopping-cart";
+		return "/shoppingcart";
 	}
 	
 	@GetMapping(value="/delivery")
