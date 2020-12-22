@@ -61,7 +61,7 @@
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li class="active"><a href="${root}/index.html">Home</a></li>
+                <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./shop-grid.html">Shop</a></li>
                 <li><a href="#">Pages</a>
                     <ul class="header__menu__dropdown">
@@ -139,7 +139,7 @@
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="${root}/index.html">Home</a></li>
                             <li class="active"><a href="./shop-grid.html">Shop</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="header__menu__dropdown">
@@ -230,9 +230,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>은갈치</h2>
+                        <h2>청정수산</h2>
                         <div class="breadcrumb__option">
-                            <a href="./index.html">Home</a>
+                            <a href="${root}/index">Home</a>
                             <span>Shop</span>
                         </div>
                     </div>
@@ -249,13 +249,12 @@
                 <div class="col-lg-3 col-md-5">
                     <div class="sidebar">
                         <div class="sidebar__item">
-                            <h4>은갈치</h4>
+                            <h4>청정수산</h4>
                             <ul>
-                                <li><a href="#">은갈치(중)</a></li>
-                                <li><a href="#">은갈치(대)</a></li>
-                                <li><a href="#">은갈치(특)</a></li>
-                                <li><a href="#">은갈치(왕)</a></li>
-                                <li><a href="#">선동 통은갈치</a></li>
+                                <li><a href="#">수산물</a></li>
+                                <li><a href="#">해조류</a></li>
+                                <li><a href="#">젓갈</a></li>
+                                <li><a href="#">선물세트</a></li>
                             </ul>
                         </div>
                         <div class="sidebar__item">
@@ -487,91 +486,136 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/1936_gs_img_so.png">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_01.jpg">
+                                    <!-- <ul class="product__item__pic__hover">
+                                        <li><a href="${root}/shoppingcart"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="${root}/shoppingcart"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="${root}/shoppingcart"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul> -->
                                 </div>
                                 <div class="product__item__text">
-                                    <h5><a href="${root}/shopdetails_eungalchi">제주 은갈치 (中) -추동-</a></h5>
-                                    <h5>3~12마리 36,000원 부터~</h5>
+                                    <h5><a href="${root}/shopgrid_eungalchi">제주 은갈치</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/1935_gs_img_so.png">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_02.jpg">
+                                    <ul class="product__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                                 </div>
                                 <div class="product__item__text">
-                                   <h5><a href="${root}/shopdetails_eungalchi">제주 은갈치 (大) -추동-</a></h5>
-                                    <h5>3~12마리 48,000원 부터~</h5>
+                                   <h5><a href="${root}/shopdetails_eungalchi">제주 참옥돔</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/1932_gs_img_so.png">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_03.jpg">
+                                    <ul class="product__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h5><a href="#">제주 은갈치 (특대) -추동-</a></h5>
-                                    <h5>2~8마리 59,000원 부터~</h5>
+                                    <h5><a href="#">제주 고등어</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/1931_gs_img_so.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_04.jpg">
+                                    <ul class="product__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h5><a href="#">제주 은갈치 (왕특) -추동-</a></h5>
-                                    <h5>2~8마리 86,000원 부터~</h5>
+                                    <h5><a href="#">수산 알뜰세트</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/1930_gs_img_so.png">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_05.jpg">
+                                    <ul class="product__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h5><a href="#">제주 통은갈치 (대/ 특/ 왕) -추동-</a></h5>
-                                    <h5>3kg/ 5kg 107,000원 부터~</h5>
+                                    <h5><a href="#">수산 일반세트</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/1951_gs_img_so.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_06.jpg">
+                                    <ul class="product__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h5><a href="#">제주 은갈치/ 통갈치 (중,대,특,왕)</a></h5>
-                                    <h5>3~4마리 36,000원 부터~</h5>
+                                    <h5><a href="#">수산 골드세트</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/1745_gs_img_so.png">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_07.jpg">
+                                    <ul class="product__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h5><a href="#">제주수산물 -알뜰세트-</a></h5>
-                                    <h5>30,000원 부터~</h5>
+                                    <h5><a href="#">제주추자도 굴비</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/1960_gs_img_so.png">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_08.jpg">
+                                    <ul class="product__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h5><a href="#">제주수산물 -일반세트-</a></h5>
-                                    <h5>54,000원 부터~</h5>
+                                    <h5><a href="#">제주추자도 참조기</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/eungalchi/628_gs_img_so.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="resources/img/product/2019_img/susan_main5_09.jpg">
+                                    <ul class="product__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h5><a href="#">[GOLD]골드수산세트 -추동은갈치-</a></h5>
-                                    <h5>특/ 왕 135,000원 부터~</h5>
+                                    <h5><a href="#">제주 젓갈류</a></h5>
+                                    <!-- <h5>$30.00</h5> -->
                                 </div>
                             </div>
                         </div>

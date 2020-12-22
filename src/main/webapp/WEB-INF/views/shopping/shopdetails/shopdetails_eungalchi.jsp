@@ -226,16 +226,16 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="resources/img/breadcrumb.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Vegetableâs Package</h2>
+                        <h2>제주 은갈치 (中)</h2>
                         <div class="breadcrumb__option">
-                            <a href="./index.html">Home</a>
-                            <a href="./index.html">Vegetables</a>
-                            <span>Vegetableâs Package</span>
+                            <a href="${root}/index">Home</a>
+                            <a href="${root}/index">Vegetables</a>
+                            <span>제주 은갈치 (中)</span>
                         </div>
                     </div>
                 </div>
@@ -252,23 +252,23 @@
                     <div class="product__details__pic">
                         <div class="product__details__pic__item">
                             <img class="product__details__pic__item--large"
-                                src="img/product/details/product-details-1.jpg" alt="">
+                                src="resources\img\product\eungalchi\1936_gs_img_jung.png" alt="">
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
-                            <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                                src="img/product/details/thumb-1.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                src="img/product/details/thumb-2.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                src="img/product/details/thumb-3.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                src="img/product/details/thumb-4.jpg" alt="">
+                            <img data-imgbigurl="resources/img/product/details/product-details-2.jpg"
+                                src="resources/img/product/details/thumb-1.jpg" alt="">
+                            <img data-imgbigurl="resources/img/product/details/product-details-3.jpg"
+                                src="resources/img/product/details/thumb-2.jpg" alt="">
+                            <img data-imgbigurl="resources/img/product/details/product-details-5.jpg"
+                                src="resources/img/product/details/thumb-3.jpg" alt="">
+                            <img data-imgbigurl="resources/img/product/details/product-details-4.jpg"
+                                src="resources/img/product/details/thumb-4.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="product__details__text">
-                        <h3>Vetgetableâs Package</h3>
+                        <h3>제주 은갈치 (中) -추동-</h3>
                         <div class="product__details__rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -278,9 +278,7 @@
                             <span>(18 reviews)</span>
                         </div>
                         <div class="product__details__price">$50.00</div>
-                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam
-                            vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet
-                            quam vehicula elementum sed sit amet dui. Proin eget tortor risus.</p>
+                        <p>--상세설명 추가--</p>
                         <div class="product__details__quantity">
                             <div class="quantity">
                                 <div class="pro-qty">
@@ -291,9 +289,15 @@
                         <a href="#" class="primary-btn">ADD TO CARD</a>
                         <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
                         <ul>
-                            <li><b>Availability</b> <span>In Stock</span></li>
-                            <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
-                            <li><b>Weight</b> <span>0.5 kg</span></li>
+                            <li><b>사진설명</b> <span>1케이스(4토막)은 1마리입니다.</span></li>
+                            <li><b>원물중량</b> <span>가공전 1마리당 300~350g</samp></span></li>
+                            <li><b>가공중량</b> <span>가공후 1마리당 220~280g</span></li>
+                            <li><b>택배비용</b> <span>무료배송(도서,섬,산간지역별도)</span></li>
+                            <li><b>배송기간</b> <span>입금후 2~3일 (주말,연휴,공휴일 제외)</span></li>
+                            <li><b>배송안내</b> <span>기상악화 및 재고부족시 배송기간은 변경될수 있습니다</span></li>
+                            <li><b>포장형태</b> <span>손질후 급냉, 진공포장</span></li>
+                            <li><b>보관방법</b> <span>수령후에는 냉동보관</span></li>
+                            <li><b>전화문의</b> <span>주문 및 상담 064-711-0144</span></li>
                             <li><b>Share on</b>
                                 <div class="share">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -325,24 +329,8 @@
                             <div class="tab-pane active" id="tabs-1" role="tabpanel">
                                 <div class="product__details__tab__desc">
                                     <h6>Products Infomation</h6>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-                                        Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vivamus
-                                        suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam
-                                        vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada.
-                                        Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat,
-                                        accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a
-                                        pellentesque nec, egestas non nisi. Vestibulum ac diam sit amet quam vehicula
-                                        elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus
-                                        et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
-                                        vel, ullamcorper sit amet ligula. Proin eget tortor risus.</p>
-                                        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem
-                                        ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet
-                                        elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum
-                                        porta. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus
-                                        nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed
-                                        porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum
-                                        sed sit amet dui. Proin eget tortor risus.</p>
+                                    <p>======상세설명======</p>
+                                    <img src="resources/img/product/eungalchi/galch_wnd.jpg">
                                 </div>
                             </div>
                             <div class="tab-pane" id="tabs-2" role="tabpanel">
